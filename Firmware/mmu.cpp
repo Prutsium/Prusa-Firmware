@@ -1443,9 +1443,9 @@ bFilamentAction=false;                            // NOT in "mmu_fil_eject_menu(
 //! @retval false Doesn't fit
 static bool can_load()
 {
-    current_position[E_AXIS] += 60;
+    current_position[E_AXIS] += 65;
     plan_buffer_line_curposXYZE(MMU_LOAD_FEEDRATE);
-    current_position[E_AXIS] -= 52;
+    current_position[E_AXIS] -= 58;
     plan_buffer_line_curposXYZE(MMU_LOAD_FEEDRATE);
     st_synchronize();
 
@@ -1468,7 +1468,7 @@ static bool can_load()
             DEBUG_PUTCHAR('o');
         }
     }
-    if (filament_detected_count > steps - 4)
+    if (filament_detected_count > steps - 25)
     {
         DEBUG_PUTS_P(PSTR(" succeeded."));
         return true;

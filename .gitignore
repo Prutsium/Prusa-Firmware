@@ -2,7 +2,8 @@
 .project
 .cproject
 Debug
-Firmware/Configuration_prusa.h
+Firmware/Configuration_prusa.h0000
+Firmware/Firmware.ino.rambo.hex
 Firmware/Doc
 /Firmware/.vs/Firmware/v14
 /Firmware/__vm
