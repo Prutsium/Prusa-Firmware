@@ -323,9 +323,9 @@
 //#define  DEFAULT_Kp 40.925
 //#define  DEFAULT_Ki 4.875
 //#define  DEFAULT_Kd 86.085
-#define  DEFAULT_Kp 7.93
-#define  DEFAULT_Ki 0.39
-#define  DEFAULT_Kd 40.06
+#define  DEFAULT_Kp 8.59
+#define  DEFAULT_Ki 0.33
+#define  DEFAULT_Kd 45.98
 #endif
 
 // Extrude mintemp
