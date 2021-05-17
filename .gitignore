@@ -2,8 +2,7 @@
 .project
 .cproject
 Debug
-Firmware/Configuration_prusa.h0000
-Firmware/Firmware.ino.rambo.hex
+Firmware/Configuration_prusa.h
 Firmware/Doc
 /Firmware/.vs/Firmware/v14
 /Firmware/__vm
@@ -53,4 +52,3 @@ Firmware/Doc
 /Firmware/Firmware.vcxproj
 /Firmware/Configuration_prusa_bckp.h
 /Firmware/variants/printers.h
-Firmware/Inverted_Firmware.ino.rambo.hex
